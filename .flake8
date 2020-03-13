@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 160
+per-file-ignores =
+    # manage.py is auto generated so we ignore the unused import warning
+    tripy/manage.py:F401
+    # our models are split into several files and they are all imported in models/models.py to allow 
+    # django migrations to pick them up. Need to ignore unused import here
+    tripy/*/migrations/*:E501
+    tripy/tripy/test_settings.py:F403,F405
