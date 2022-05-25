@@ -19,7 +19,7 @@ pre-commit==1.18.3
 pycodestyle==2.5.0
 pycparser==2.19
 pyflakes==2.1.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyMySQL==0.9.3
 python-json-logger==0.1.11
 pytz==2019.2
